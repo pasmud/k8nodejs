@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: pasmud/stubackend:latest
+          image: pasmud/stubackend-1.0:latest
           ports:
             - containerPort: 3000
           env:
