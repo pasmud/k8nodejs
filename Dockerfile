@@ -1,5 +1,5 @@
   
-FROM node:16.3.11-alpine
+FROM node
 WORKDIR /app
 COPY ./package.json ./
 RUN npm i
